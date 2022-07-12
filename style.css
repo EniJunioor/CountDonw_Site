@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    color: whitesmoke;
+    font-family: 'Montserrat' , sans-serif;
+    user-select: nome;
+    text-shadow: 0 0 10px rgb(196, 97, 97);
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(173, 127, 173)
+
+}
+.tittle { 
+    font-size: calc(10px + 3vw); 
+}
+
+.tittle p {
+    font-size: calc(10px + 1vw);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    text-shadow: 0 0 10px rgb(196, 97, 97);
+    flex-wrap: wrap;
+}
+
+.countdown h1{
+    font-size: calc(10px + 7vw);
+    text-shadow: 0 0 10px rgb(146, 50, 50);
+}
+
+.button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px wheat;
+}
+
+.button:hover {
+    background-color: #B0C4DE;
+    color: black;
+    transition: 2s;
+}
+.button a {
+    text-decoration: none;
+    color: black;
+    
+} 
